@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hritik's IMDB</h1>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search movies..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="movie-list" id="movieList"></div>
+      <div class="movie-details" id="movieDetails">
+        <!-- Movie details will be displayed here upon selecting a movie -->
+      </div>
+    </div>
+
+    <div class="pagination">
+      <div id="pageNumbers"></div>
+      <button id="prevBtn" disabled>Previous</button>
+      <button id="nextBtn" disabled>Next</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
